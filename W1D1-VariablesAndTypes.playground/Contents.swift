@@ -70,11 +70,11 @@ count
 //: What type are the variables `tipAmount`, and `isOpen`?
 
 var tipAmount = 6.01
-// tipAmount's type is:
+// tipAmount's type is: double
 
 
 var isOpen = true
-// isOpen's type is:
+// isOpen's type is: booooolean
 
 
 //: ## Type Inference

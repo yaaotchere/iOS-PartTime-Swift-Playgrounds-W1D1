@@ -9,7 +9,8 @@
 //: Variables allow us to store data that we can use at a later time
 //: In swift, you create variables like this:
 
-var greeting = "Hello, world!"
+var greeting = "Whatup world!"
+
 
 //: There are three important parts to creating a variable: 1) writing `var` to show you are creating a new variable, 2) naming the variable,
 //: and 3) the data stored inside the variable
@@ -90,6 +91,7 @@ var height: Double = 10
 
 
 
+
 //: It didn't work, right? They are both numbers, but `count` is an Int, and `height` is a `Double`. There are ways to convert the `Double` 10 into the `Int` 10, but we won't go into that just now.
 
 
@@ -103,6 +105,10 @@ var height: Double = 10
 
 var schoolName = "Lightouse Labs"
 
+
+schoolName.uppercaseString
+
+schoolName.lowercaseString
 
 
 //: THE END
